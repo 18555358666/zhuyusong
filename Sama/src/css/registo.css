@@ -1,0 +1,203 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+/* remember to define focus styles! */
+:focus {
+  outline: 0; }
+
+/* remember to highlight inserts somehow! */
+ins {
+  text-decoration: none; }
+
+del {
+  text-decoration: line-through; }
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+em, i {
+  font-style: normal; }
+
+a {
+  text-decoration: none; }
+
+.clear:after {
+  content: ".";
+  clear: both;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+  display: block; }
+
+.logo_top {
+  background: #f8f8f8; }
+  .logo_top .center_box {
+    width: 190px;
+    margin: 0 auto;
+    padding: 50px 0; }
+    .logo_top .center_box .box_logo {
+      width: 100px;
+      height: 100px;
+      margin: 0 auto; }
+    .logo_top .center_box .logo_title {
+      margin-top: 30px;
+      border-top: 1px solid #b3b3b3;
+      text-align: center;
+      color: #333;
+      font-size: 20px;
+      font-family: "Microsoft YaHei";
+      font-weight: normal; }
+      .logo_top .center_box .logo_title em {
+        position: relative;
+        top: -15px;
+        background: #f8f8f8;
+        padding: 0 20px;
+        line-height: 30px;
+        font-style: normal; }
+
+.bottom_from {
+  padding: 30px 0;
+  border-top: 1px solid #eee; }
+  .bottom_from .tab_switch {
+    width: 442px;
+    height: 140px;
+    padding: 20px 0 30px;
+    margin: 0 auto; }
+    .bottom_from .tab_switch ._left {
+      display: block;
+      width: 196px;
+      height: 132px;
+      border: 2px solid #0799c9;
+      text-align: center;
+      border-radius: 4px;
+      position: relative;
+      float: left; }
+      .bottom_from .tab_switch ._left em {
+        display: block;
+        font-size: 36px;
+        padding: 24px 0;
+        color: #0799c9;
+        line-height: 36px; }
+      .bottom_from .tab_switch ._left b {
+        color: #3f4c58; }
+      .bottom_from .tab_switch ._left span {
+        display: block;
+        position: absolute;
+        right: -7px;
+        top: -7px;
+        width: 24px;
+        height: 24px;
+        background: #fff;
+        border-radius: 50%;
+        border: 2px solid #0799c9; }
+
+.tab_switch span i {
+  font-size: 18px;
+  font-style: normal;
+  color: #3f4c58;
+  position: absolute;
+  top: 3px;
+  left: 4px; }
+
+.tab_switch ._right {
+  display: block;
+  width: 196px;
+  height: 132px;
+  border: 2px solid #0799c9;
+  text-align: center;
+  border-radius: 4px;
+  position: relative;
+  float: right; }
+  .tab_switch ._right em {
+    display: block;
+    font-size: 55px;
+    padding: 24px 0;
+    color: #0799c9;
+    line-height: 36px; }
+  .tab_switch ._right b {
+    color: #3f4c58; }
+  .tab_switch ._right span {
+    display: block;
+    position: absolute;
+    right: -7px;
+    top: -7px;
+    width: 24px;
+    height: 24px;
+    background: #fff;
+    border-radius: 50%;
+    border: 2px solid #0799c9; }
+
+.from_box {
+  width: 442px;
+  margin: 0 auto; }
+  .from_box .ipt {
+    margin-bottom: 32px;
+    width: 440px;
+    height: 40px;
+    position: relative; }
+    .from_box .ipt .ipt_from_1 {
+      display: block;
+      width: 434px;
+      height: 32px;
+      outline: 0;
+      border: 1px solid #3994D9;
+      box-sizing: border-box;
+      text-indent: 8px; }
+    .from_box .ipt .prompt_text_default {
+      position: absolute;
+      top: 38px;
+      color: #aaa;
+      text-indent: 10px;
+      line-height: 32px;
+      font-size: 14px; }
+    .from_box .ipt .prompt_text_wrong {
+      display: none; }
+
+.from_box .btn_box {
+  margin: 24px 15px 30px; }
+
+.from_box .blue_link {
+  display: block;
+  width: 220px;
+  margin: 0 auto;
+  background: #006aaf;
+  text-align: center;
+  color: #fff;
+  line-height: 50px;
+  font-size: 18px;
+  font-family: "Microsoft YaHei";
+  font-weight: bold;
+  border-radius: 3px;
+  height: 50px; }
+  .from_box .blue_link:hover {
+    background: #005b96; }

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>山姆会员商店-注册</title>
+	<link rel="stylesheet" href="../css/registo.css">
+	<link rel="stylesheet" href="../font/font_62/iconfont.css">
+</head>
+<body>
+	<div class="logo_top">
+		<div class="center_box">
+			<div class="box_logo">
+				<a href="#"><!-- 跳转登陆页面 -->
+					<img src="../img/logo.png" alt="">
+				</a>
+			</div>
+			<h3 class="logo_title">
+				<em>欢迎注册</em>
+			</h3>
+		</div>
+	</div>
+<!-- 以上注册页面头部logo部分 -->
+	<div class="bottom_from">
+		<div class="tab_switch">
+			<a class="_left" href="javascript:;">
+				<em class="iconfont">&#xe617;</em>
+				<b>暂无会员卡</b>
+				<span>
+					<i class="iconfont">&#xe60c;</i>
+				</span>
+			</a>
+			<a class="_right" href="javascript:;">
+				<em class="iconfont">&#xe61f;</em>
+				<b>已有会员卡</b>
+				<span>
+					<i class="iconfont">&#xe60c;</i>
+				</span>
+			</a>
+		</div>
+	</div>
+	<!-- 以上是会员卡盒子 -->
+	<div class="from_box">
+		<div class="ipt _username">
+			<input class="ipt_from_1" type="text" placeholder="用户名" name="username">
+			<p class="prompt_text_default">4-20位字符，可由中文、英文、数字</p>
+			<!-- 默认提示 -->
+			<p class="prompt_text_wrong">请输入正确的用户名！/请输入用户名！</p>
+			<!-- 错误提示 -->
+		</div>
+		<div class="ipt _email">
+			<input class="ipt_from_1" type="text" placeholder="邮箱地址" name="email">
+			<p class="prompt_text_default">请输出常用邮箱，可用作登陆账户，接受订单通知和找回密码之用</p>
+			<!-- 默认提示 -->
+			<p class="prompt_text_wrong">请输入正确的邮箱地址！/请输入邮箱地址！</p>
+			<!-- 错误提示 -->
+		</div>
+		<div class="ipt _password">
+			<input class="ipt_from_1" type="password" placeholder="密码" name="password">
+			<p class="prompt_text_default">6-20位字符，可由大小写英文、数字或符号“-”“_”组成</p>
+			<!-- 默认提示 -->
+			<p class="prompt_text_wrong">密码要求为6-20位字符！/请输入密码！</p>
+			<!-- 错误提示 -->
+		</div>
+		<div class="ipt _repassword">
+			<input class="ipt_from_1" type="password" placeholder="确认密码" name="repassword">
+			<p class="prompt_text_wrong"></p>
+			<!-- 错误提示 -->
+		</div>
+		<div class="ipt _iphone_number">
+			<input class="ipt_from_1" type="text" placeholder="您的手机号" name="iphone_number">
+			<p class="prompt_text_wrong"></p>
+			<!-- 错误提示 -->
+		</div>
+		<div class="ipt_checkbox_1">
+			<input type="checkbox" name="checkbox_1" id="feed_checkbox_1" checked="checked">
+			<label for="feed_checkbox_1">订阅优惠信息</label>
+		</div>
+		<div class="ipt_checkbox_2">
+			<input type="checkbox" name="checkbox_2" id="feed_checkbox_2" checked="checked">
+			<label for="feed_checkbox_2">
+			 我已同意并阅读
+			<a href="javascript:;">《山姆网站使用条款》</a><!-- 跳转《山姆网站使用条款》 -->
+			</label>
+		</div>
+		<div class="btn_box">
+			<a href="javascript:;" class="blue_link" target="_blank">提交</a>
+		</div>
+	</div>
+</body>
+</html>
