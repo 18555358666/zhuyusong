@@ -1,0 +1,344 @@
+.main_wrap{
+	width:1500px;
+	margin:0 auto;
+	.wrap_title_top{
+		margin:30px 0;
+		h2{
+			font-weight: bold;
+    		font-size: 18px;
+    		text-align: center;
+		}
+		
+	}
+	.my_shopping_list{
+		position:relative;
+		box-shadow:0 0 5px rgba(0,0,0,0.1);
+		background:#fff;
+		overflow:hidden;
+		margin-bottom:30px;
+		.user_info{
+			background:url(../img/member_bg.png);
+		}
+	}
+
+}
+
+.my_shopping_list .sign{
+	width:250px;
+	height:320px;
+	float:left;
+	position:relative;
+	.text_con{
+		position:absolute;
+		top:0;
+		left:0;
+		width:100%;
+		height:100%;
+		text-align:center;
+		color:#fff;
+		line-height:24px;
+		.avatar_mask{
+			z-index:10;
+			position:absolute;
+			top:26px;
+			left:0;
+			width:100%;
+			height:100%;
+			background:url(../img/macke.png) top center no-repeat;
+		}
+		.widget_avatar{
+			position:relative;
+			margin:30px auto 0;
+			width:110px;
+			height:110px;
+		}
+		.wrapper{
+			position:relative;
+			top:0;
+			left:0;
+			width:100%;
+			height:100%;
+		}
+		.avatar{
+			position:absolute;
+			top:6px;
+			left:6px;
+			width:80px;
+			height:80px;
+			padding:9px;
+			img{
+				width:100%;
+				height:100%;
+				margin-top:-1px;
+				vertical-align:top;
+				border:0;
+			}
+			.mask{
+				z-index:11;
+				position:absolute;
+				top:0px;
+				left:-1px;
+				width:98px;
+				height:98px;
+				background:url(../img/avatar.png);
+			}
+		}
+		.avatar_text{
+			z-index:11;
+			position:relative;
+
+		}
+		.name{
+			font-size:14px;
+			font-weight:bold;
+			margin-top:10px;
+		}
+		.text{
+			font-size:12px;
+			margin-bottom:15px;
+			.info{
+				margin-top:15px;	
+			}
+			span{
+				display:block;
+				line-height:20px;
+			}
+		}
+		.btn{
+			padding:3px 10px;
+			border:1px solid #fff;
+			color:#fff;
+			font-size:12px;
+		}
+	}
+}
+
+.my_shopping_list .prod_box .item{
+		position:relative;
+		float:left;
+		text-align:center;
+		transition:box-shadow .5s;
+		height:320px;
+		&:hover{
+			box-shadow:0 0 10px rgba(0,0,0,0.2);
+		}
+		a{
+			display:block;
+			margin:12px;
+			color:#333;
+			&:hover{
+				color:#0069aa;
+			}
+		}
+		.i_size_box{
+			position:relative;
+			width:100%;
+			padding-top:100%;
+		}
+		img{
+			position:absolute;
+			left:0px;
+			top:0px;
+			width:100%;
+			height:100%;
+			margin-bottom:5px;
+			vertical-align:top;
+			border:0;
+		}
+		p{
+			font-size:14px;
+			padding:16px 8px;
+			width:92%;
+			overflow:hidden;
+			text-overflow:ellipsis;
+			white-space:nowrap;
+				.jsd_tag{
+		    	position:absolute;
+		    	left:0px;
+		    	top:12px;
+		    	width:56px;
+		    	height:22px;
+		    	background:url(../img/icon_jsd.png);
+		    }
+		}
+		.is_tags_mark{
+			box-sizing:border-box;
+			width:100%;
+			padding-left:60px;
+			position:relative;
+			text-align:left;
+		}
+		span{
+			font-size:16px;
+			font-weight:bold;
+			em{
+				font-size:12px;
+			}
+		}
+		.marking{
+			position:absolute;
+			left:16px;
+			width:44px;
+			bottom:84px;
+			height:44px;
+			border-radius:50%;
+			color:#fff;
+			display:table;
+			img{
+				border-radius:50%;
+				margin-bottom:0;
+			}
+		}
+}
+.only_we_have .item{
+		width: 20%;
+	    float: left;
+	    text-align: center;
+	    margin-bottom: 10px;
+	    padding: 15px 0 0;
+	    position: relative;
+	    transition: box-shadow .5s;
+	    &:hover{
+	    	background:#fff;
+	    	box-shadow:0 0 10px rgba(0,0,0,0.2);
+	    }
+	    a{
+	    	display: block;
+    		position: relative;
+    		color:#333;
+    		&:hover{
+    			color:#0069aa;
+    		}
+		}
+	.i_sizi_box{
+    	position: relative;
+		width: 100%;
+		padding-top: 100%
+    }
+    .img_agent{
+    		position: absolute;
+   			left: 5%;
+    		top: 0px;
+    		width: 90%;
+    		margin-bottom: 5px;
+    		vertical-align:top;
+    }
+    .i_sizi_tit{
+    	text-align:left;
+    	position:relative;
+    }
+    p{
+    	font-size: 14px;
+	    padding: 5px 12px;
+	    width: 92%;
+	    overflow: hidden;
+	    text-overflow: ellipsis;
+	    white-space: nowrap;
+    }
+    span{
+    	font-size:16px;
+    	font-weight:bold;
+    	em{
+    		font-size:12px;
+    	}
+    }
+    .marking{
+    	position: absolute;
+	    left: 20px;
+	    bottom: 55px;
+	    width: 44px;
+	    height: 44px;
+	    border-radius: 50%;
+	    color: #fff;
+	    display: table;
+	    background:#fff200;
+	    .box{
+	    	vertical-align:middle;
+	    	display:table-cell;
+	    	p{
+	    		font-size:12px;
+	    		padding:0;
+	    		width:100%;
+	    		line-height:16px;
+	    		color:#0069aa;
+	    	}
+	    }
+    }
+    .outline{
+    	margin:10px 20px;
+    	padding:10px 0 0;
+    	border-top:1px dashed #e5e5e5;
+    	color:#999;
+    	height:40px;
+    	line-height:20px;
+    	overflow:hidden;
+    	.item_info{
+    		line-height:20px;
+    		padding:0;
+    		font-size:12px;
+    		text-align:center;
+    		width:100%;
+    	}
+    }
+}
+
+.i_size_box{
+	position:relative;
+	width:100%;
+	padding-top:96.7%;
+	.bg{
+		position:absolute;
+		left:0px;
+		top:0px;
+		width:100%;
+		vertical-align:top;
+		border:0;
+	}
+}
+
+.text_con{
+	.title{
+		display:block;
+		font-size:24px;
+		padding:0 20px;
+		text-align:left;
+		margin-bottom:10px;
+		margin-top:30px;
+		color:#fff;
+		font-weight:bold;
+		width:100px;
+		height:25px;
+		overflow:hidden;
+	}
+	h4{
+		font-size:18px;
+		font-weight:normal;
+		padding:0 20px;
+		text-align:left;
+		height:24px;
+		overflow:hidden;
+	}
+	.tags{
+		position:absolute;
+		width:100%;
+		left:0;
+		bottom:0px;
+		height:76px;
+		li{
+			float:left;
+			width:50%;
+			height:24px;
+			line-height:20px;
+			overflow:hidden;
+			a{
+				display:block;
+				color:#eee;
+				font-size:12px;
+				width:60px;
+				overflow:hidden;
+			}
+		}
+	}
+}
+
+	

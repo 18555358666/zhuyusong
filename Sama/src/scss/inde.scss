@@ -1,1 +1,13 @@
-@import "rest_style";
+@import "reset_style";
+@import "Page_header";
+@import "navFixed";
+@import "bannerPIC";
+@import "main_wrap";
+@import "content_wrap";
+@import "btm_wrap";
+@import "footer";
+
+
+body{
+	background:#f8f8f8;
+}
