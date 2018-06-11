@@ -66,15 +66,15 @@ a {
   background-color: #0069aa;
   border-bottom: 1px solid #005c9d; }
 
-.global_center_box, .hide_nav .hide_center {
+.global_center_box {
   width: 1500px;
   margin: 0 auto; }
-  .global_center_box .global_top_welcome, .hide_nav .hide_center .global_top_welcome {
+  .global_center_box .global_top_welcome {
     float: left;
     display: inline; }
-    .global_center_box .global_top_welcome .welcome_text, .hide_nav .hide_center .global_top_welcome .welcome_text {
+    .global_center_box .global_top_welcome .welcome_text {
       display: none; }
-      .global_center_box .global_top_welcome .welcome_text strong, .hide_nav .hide_center .global_top_welcome .welcome_text strong {
+      .global_center_box .global_top_welcome .welcome_text strong {
         float: left;
         display: inline;
         font-weight: normal;
@@ -83,19 +83,19 @@ a {
         text-overflow: ellipsis;
         white-space: nowrap;
         padding-right: 3px; }
-      .global_center_box .global_top_welcome .welcome_text .sign_out, .hide_nav .hide_center .global_top_welcome .welcome_text .sign_out {
+      .global_center_box .global_top_welcome .welcome_text .sign_out {
         color: #fff; }
-    .global_center_box .global_top_welcome .welcome_info, .hide_nav .hide_center .global_top_welcome .welcome_info {
+    .global_center_box .global_top_welcome .welcome_info {
       font-size: 12px; }
-      .global_center_box .global_top_welcome .welcome_info .login, .hide_nav .hide_center .global_top_welcome .welcome_info .login {
+      .global_center_box .global_top_welcome .welcome_info .login {
         color: #fff; }
-        .global_center_box .global_top_welcome .welcome_info .login:hover, .hide_nav .hide_center .global_top_welcome .welcome_info .login:hover {
+        .global_center_box .global_top_welcome .welcome_info .login:hover {
           text-decoration: underline; }
-      .global_center_box .global_top_welcome .welcome_info .register, .hide_nav .hide_center .global_top_welcome .welcome_info .register {
+      .global_center_box .global_top_welcome .welcome_info .register {
         color: #fff; }
-        .global_center_box .global_top_welcome .welcome_info .register:hover, .hide_nav .hide_center .global_top_welcome .welcome_info .register:hover {
+        .global_center_box .global_top_welcome .welcome_info .register:hover {
           text-decoration: underline; }
-  .global_center_box .global_top_nav, .hide_nav .hide_center .global_top_nav {
+  .global_center_box .global_top_nav {
     float: right;
     display: inline; }
 
@@ -374,29 +374,36 @@ a {
       .header_btm_center .btm_nav_list .nav_title_2 .nav_item dd a:hover {
         color: #0069aa; }
 
-.hide_nav {
-  display: none;
-  z-index: 2000;
-  width: 100%;
-  top: 0;
-  left: 0;
-  height: 58px;
-  background-color: #0069aa; }
-  .hide_nav .hide_fixed_logo {
-    display: block;
-    margin: 17px 15px 0 0;
-    float: left; }
-  .hide_nav .li {
-    position: relative;
+.details_content_center {
+  width: 1500px;
+  margin: 10px auto; }
+
+.details_content_center .details_top {
+  padding-top: 10px; }
+  .details_content_center .details_top li {
     float: left;
-    display: inline;
-    height: 58px;
-    line-height: 58px;
-    font-size: 14px;
-    padding: 0 2%; }
-    .hide_nav .li a {
-      display: block;
-      color: #fff;
-      max-width: 56px;
-      height: 40px;
-      overflow: hidden; }
+    font-size: 12px;
+    color: #999;
+    margin-right: 10px; }
+    .details_content_center .details_top li:hover {
+      color: #0069aa; }
+  .details_content_center .details_top .okcl {
+    color: #2b68a5; }
+
+.details_content_center .details_mid {
+  padding-top: 20px; }
+  .details_content_center .details_mid .datails_left {
+    float: left; }
+  .details_content_center .details_mid .left_pic {
+    border: 1px solid #ccc;
+    width: 65px;
+    height: 65px;
+    margin-bottom: 5px; }
+    .details_content_center .details_mid .left_pic:hover {
+      border: 1px solid #2b68a5; }
+  .details_content_center .details_mid .datails_spic {
+    width: 500px;
+    height: 500px;
+    float: left;
+    background: yellow;
+    margin-left: 15px; }

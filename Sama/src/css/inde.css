@@ -430,9 +430,9 @@ a {
     text-align: center;
     width: 100%; }
     .banner .banner_trig li {
-      background: #f65;
+      background: #fff;
       padding: 8px 20px;
-      margin-right: 1px;
+      margin-right: 2px;
       display: inline-block;
       cursor: pointer;
       vertical-align: middle; }
@@ -441,7 +441,8 @@ a {
         max-width: 96px;
         height: 18px;
         color: #333;
-        overflow: hidden; }
+        overflow: hidden;
+        font-size: 12px; }
 
 .main_wrap {
   width: 1500px;
@@ -554,6 +555,13 @@ a {
     position: relative;
     width: 100%;
     padding-top: 100%; }
+    .my_shopping_list .prod_box .item .i_size_box .jsd_tag {
+      position: absolute;
+      left: 0px;
+      top: 12px;
+      width: 56px;
+      height: 22px;
+      background: url(../img/icon_jsd.png); }
   .my_shopping_list .prod_box .item img {
     position: absolute;
     left: 0px;
@@ -570,13 +578,6 @@ a {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap; }
-    .my_shopping_list .prod_box .item p .jsd_tag {
-      position: absolute;
-      left: 0px;
-      top: 12px;
-      width: 56px;
-      height: 22px;
-      background: url(../img/icon_jsd.png); }
   .my_shopping_list .prod_box .item .is_tags_mark {
     box-sizing: border-box;
     width: 100%;

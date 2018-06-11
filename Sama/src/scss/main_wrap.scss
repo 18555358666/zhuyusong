@@ -152,14 +152,6 @@
 			overflow:hidden;
 			text-overflow:ellipsis;
 			white-space:nowrap;
-				.jsd_tag{
-		    	position:absolute;
-		    	left:0px;
-		    	top:12px;
-		    	width:56px;
-		    	height:22px;
-		    	background:url(../img/icon_jsd.png);
-		    }
 		}
 		.is_tags_mark{
 			box-sizing:border-box;
@@ -189,6 +181,7 @@
 				margin-bottom:0;
 			}
 		}
+
 }
 .only_we_have .item{
 		width: 20%;

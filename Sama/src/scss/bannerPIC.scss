@@ -30,9 +30,9 @@
 	    text-align: center;
 	    width: 100%;
 	    	li{
-				background: #f65;
+	    		background:#fff;
     			padding: 8px 20px;
-    			margin-right: 1px;
+    			margin-right: 2px;
     			display: inline-block;
     			cursor: pointer;
     			vertical-align: middle;
@@ -42,6 +42,7 @@
     				height: 18px;
    					color: #333;
     				overflow: hidden;
+    				font-size:12px;
     			}
 	    	}
 		}
