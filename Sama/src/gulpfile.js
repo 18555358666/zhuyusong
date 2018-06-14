@@ -81,4 +81,4 @@ gulp.task('imagemin',function(){
 	.pipe(imagemin())
 	.pipe(gulp.dest('../dist/img'));
 })
-gulp.task('default',['watchhtml','watchsass','watchcss','connect','connectwatch','imagemin']);
+gulp.task('default',['watchhtml','watchsass','connect','connectwatch','watchcss','imagemin']);

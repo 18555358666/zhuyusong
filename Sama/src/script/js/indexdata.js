@@ -5,18 +5,13 @@
         dataType:'json'
         }).done(function(bannerdata) { 
         	var $bannerdata=bannerdata.lunbotu;
-     	var $lunbopic=$('.lunbopic');
-		var $btn_tlt=$('.banner_trig');
-     	var $picc='';
-     	var $btn_t=''
-     	$.each($bannerdata,function(index,ele){
-     		$picc+="<img src="+ele.url+">"
-     		$lunbopic.html($picc);
+        	var $mmmg=$('.mmmg');
+        	var $btnggg=$('.btnggg');
+        	for(var i=0;i<7;i++){
+        		$mmmg.eq(i).attr('src',$bannerdata[i].url);
+        		$btnggg.eq(i).html($bannerdata[i].title);
+        	}
 
-     		$btn_t +=`<li><a href:"javascript:;">${ele.title}</a></li>`;
-     		//console.log(ele);
-     		$btn_tlt.html($btn_t);
-     	});
 });
 	//主题内容第一排
 $.ajax({
@@ -46,11 +41,10 @@ $.ajax({
 		var $stt='';
 		var $str=$('#prod_box');
 		$.each($main_mid,function(index,ele){
-			//console.log(ele)
 			$stt +=`<div class="item">
 						<a href="javascript:;" title=${ele.suggest} target="_blank">
-						<div class="i_sizi_box">
-							<img class="img_agent" src=${ele.url} alt="">
+						<div class="i_sizi_box" style = 'width:300px'>
+							<img class="img_agent" src=${ele.url.split(',')[0]} alt="">
 						</div>
 						<p class="i_sizi_tit" style="text-align:center">${ele.title}</p>
 						<span>
@@ -227,6 +221,20 @@ $.ajax({
 					</div>`;
 			$suppedg.html($str);
 		})	
+})
+
+
+$.ajax({
+		url:'http://localhost/zhuyusong/Sama/php/index1.php',
+		dataType:'json'
+		}).done(function(xiangqing){
+			var xiangqing=(xiangqing.main_2_data)[0].url.split(',');
+			var arr=xiangqing.shift();
+			var $smallpic=$('.smallpic');
+			for (var i=0;i<=arr.length;i++) {
+        		$smallpic.eq(i).attr('src',xiangqing[i]);
+			}
+			$smallpic.eq(0).css('display','block');
 })
 		
 })(jQuery);

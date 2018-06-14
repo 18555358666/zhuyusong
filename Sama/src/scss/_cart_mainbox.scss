@@ -1,0 +1,206 @@
+.cart_center{
+	margin:30px auto;
+	width:1200px;
+	position:relative;
+}
+
+.cart .my_cart{
+		padding:20px 0;
+		h1{
+			text-align:left;
+			color:#0069aa;
+			font-size:20px;
+	}
+}
+
+.cart_box{
+	background:#f8f8f8;
+	height:500px;
+	.common{
+		height:50px;
+		background:#BAC9C7;
+		.putong{
+			font-size:20px;
+			font-weight:bold;
+			margin-top:13px;
+			margin-left:10px;
+			display:inline-block;
+		}
+		.shouqi{
+			display:inline-block;
+			margin-left:1045px;
+			cursor:pointer;
+		}
+	}
+}
+
+
+.empty_box{
+	display:none;
+	width:1200px;
+	background:#E8EAE2;
+	height:500px;
+	position:absolute;
+	left:0;
+	top:60px;
+	.ico_cart{
+		text-align:center;
+		padding:30px 0;
+		span{
+			display:block;
+			font-size:150px;
+			color:#BFADAD;
+		}
+		i{
+			display:block;
+			font-size:35px;
+			margin-top:40px;
+		}
+	}
+	.go_shopping{
+		text-align:center;
+		width:200px;
+		height:50px;
+		border:1px solid #0069aa;
+		background-color:#0069aa;
+		margin-left:510px;
+
+		a{
+			font-size:25px;
+			color:#fff;
+			margin-top:10px;
+			display:block;
+		}
+	
+	
+	}
+}
+
+
+table tr td{
+	text-align:center;
+}
+#checkall{
+	width:50px;
+	
+}
+
+#info{
+	width:300px;
+	
+}
+#singleprice{
+	width:150px;
+}
+#num{
+	width:250px;
+}
+#subtotal{
+	width:200px;
+}
+#operation{
+	width:200px;
+}
+
+#alldelet{
+	display:inline-block;
+	width:800px;
+	margin-top:20px;
+	margin-left:10px;
+}
+#amount{
+	display:inline-block;
+	width:50px;
+}
+#price{
+	display:inline-block;
+	width:50px;
+	font-size:20px;
+	color:#0069aa;
+	margin-top:5px;
+}
+#number{
+	display:inline-block;
+	width:50px;
+	margin-left:10px;
+
+}
+#go_money{
+	display:inline-block;
+	width:150px;
+	margin-left:60px;
+	font-size:25px;
+	background:green;
+	height:50px;
+	line-height:50px;
+	a{
+		color:#fff;
+		text-align:center;
+		display:block;
+	}
+	
+}
+.warelist{
+	width:100%;
+	position:relative;
+	margin:5px 5px;
+	height:100px;
+	.checkbox{
+		position:absolute;
+		left:10px;
+	}
+	.warepic{
+		position:absolute;
+		left:40px;
+		width:90px;
+		height:90px;
+	}.info{
+		position:absolute;
+		left:145px;
+	}
+	.singleprice{
+		position:absolute;
+		left:400px;
+	}
+	.num_jian{
+		text-align:center;
+		height:20px;
+		width:20px;
+		display:inline-block;
+		position:absolute;
+		left:575px;
+		border:1px solid #ccc;
+		cursor:pointer;
+		
+	}
+	.numm{
+		text-align:center;
+		height:20px;
+		width:30px;
+		position:absolute;
+		outline:0;
+		border:1px solid #ccc;
+		left:600px;
+		top:-1px;
+	}
+	.num_jia{
+		text-align:center;
+		width:20px;
+		height:20px;
+		display:inline-block;
+		position:absolute;
+		left:635px;
+		border:1px solid #ccc;
+		cursor:pointer;
+	}
+	.subtotal{
+		position:absolute;
+		left:820px;
+	}
+	.del{
+		display:inline-block;
+		position:absolute;
+		left:1030px;
+	}
+}
+

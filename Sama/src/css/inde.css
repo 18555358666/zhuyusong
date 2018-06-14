@@ -409,8 +409,11 @@ a {
   .banner .banner_pic {
     width: 100%;
     position: absolute;
-    z-index: 10; }
+    z-index: 0;
+    background: #C77A37;
+    height: 400px; }
     .banner .banner_pic li {
+      opacity: 0;
       height: 400px;
       width: 100%;
       overflow: hidden;
@@ -430,7 +433,7 @@ a {
     text-align: center;
     width: 100%; }
     .banner .banner_trig li {
-      background: #fff;
+      background-color: #fff;
       padding: 8px 20px;
       margin-right: 2px;
       display: inline-block;
@@ -444,6 +447,9 @@ a {
         overflow: hidden;
         font-size: 12px; }
 
+/* .banner_trig li:nth-of-type(1){
+	background-color:#1E73B9;
+} */
 .main_wrap {
   width: 1500px;
   margin: 0 auto; }
@@ -555,13 +561,6 @@ a {
     position: relative;
     width: 100%;
     padding-top: 100%; }
-    .my_shopping_list .prod_box .item .i_size_box .jsd_tag {
-      position: absolute;
-      left: 0px;
-      top: 12px;
-      width: 56px;
-      height: 22px;
-      background: url(../img/icon_jsd.png); }
   .my_shopping_list .prod_box .item img {
     position: absolute;
     left: 0px;

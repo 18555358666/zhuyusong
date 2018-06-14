@@ -19,23 +19,30 @@
 		</div>
 	</div>
 <!-- 以上注册页面头部logo部分 -->
+<form action="">
 	<div class="from_wrap">
 		<h4>已开通山姆网购账户，请登录</h4>
 		<div class="from_box">
 			<div class="login_box">
 				<div class="from_item">
-					<input type="text" placeholder="用户名/邮箱/17位卡号" class="ipt_text">
+					<input type="text" placeholder="用户名" class="ipt_text" name="user">
 				</div>
 				<div class="from_item">
-					<input type="password" placeholder="密码" class="ipt_password">
+					<input type="password" placeholder="密码" class="ipt_password" name="pass">
 				</div>
+				<p id="error"></p>
 				<div class="clear disremember">
 					<a href="#" class="remember">忘记密码？</a>
 					<a href="registo.html" class="regist">注册</a><!-- 跳转注册页面 -->
 				</div>
-				<a href="javascript:;" class="login">登录</a><!-- 验证成功跳转主页 -->
+				<div>
+					<input type="button" id="button" value="登录">
+				</div><!-- 验证成功跳转主页 -->
 			</div>
 		</div>	
 	</div>
+</form>
+<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="../script/js/login.js"></script>
 </body>
 </html>

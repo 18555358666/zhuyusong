@@ -374,176 +374,182 @@ a {
       .header_btm_center .btm_nav_list .nav_title_2 .nav_item dd a:hover {
         color: #0069aa; }
 
-.details_content_center {
-  width: 1500px;
-  margin: 10px auto; }
-
-.details_content_center .details_top {
-  padding-top: 10px; }
-  .details_content_center .details_top li {
-    float: left;
-    font-size: 12px;
-    color: #999;
-    margin-right: 10px; }
-    .details_content_center .details_top li:hover {
-      color: #0069aa; }
-  .details_content_center .details_top .okcl {
-    color: #2b68a5; }
-
-.details_content_center .details_mid {
-  padding-top: 20px;
+.cart_center {
+  margin: 30px auto;
+  width: 1200px;
   position: relative; }
-  .details_content_center .details_mid .datails_left {
-    float: left; }
-  .details_content_center .details_mid .left_pic {
-    border: 1px solid #ccc;
-    width: 65px;
-    height: 65px;
-    margin-bottom: 5px;
-    width: 65px;
-    height: 65px; }
-    .details_content_center .details_mid .left_pic img {
+
+.cart .my_cart {
+  padding: 20px 0; }
+  .cart .my_cart h1 {
+    text-align: left;
+    color: #0069aa;
+    font-size: 20px; }
+
+.cart_box {
+  background: #f8f8f8;
+  height: 500px; }
+  .cart_box .common {
+    height: 50px;
+    background: #BAC9C7; }
+    .cart_box .common .putong {
+      font-size: 20px;
+      font-weight: bold;
+      margin-top: 13px;
+      margin-left: 10px;
+      display: inline-block; }
+    .cart_box .common .shouqi {
+      display: inline-block;
+      margin-left: 1045px;
+      cursor: pointer; }
+
+.empty_box {
+  display: none;
+  width: 1200px;
+  background: #E8EAE2;
+  height: 500px;
+  position: absolute;
+  left: 0;
+  top: 60px; }
+  .empty_box .ico_cart {
+    text-align: center;
+    padding: 30px 0; }
+    .empty_box .ico_cart span {
       display: block;
-      width: 65px;
-      height: 65px;
-      border: 0; }
-  .details_content_center .details_mid .datails_spic {
-    width: 500px;
-    height: 500px;
-    float: left;
-    position: relative; }
-    .details_content_center .details_mid .datails_spic .small_glass {
-      background: orange;
-      opacity: 0.5;
-      position: absolute;
-      top: 0;
-      left: 0;
-      visibility: hidden; }
-    .details_content_center .details_mid .datails_spic .midpic {
+      font-size: 150px;
+      color: #BFADAD; }
+    .empty_box .ico_cart i {
       display: block;
-      border: 0;
-      width: 500px;
-      height: 500px; }
-  .details_content_center .details_mid #bpic {
-    width: 500px;
-    height: 500px;
-    position: absolute;
-    left: 567px;
-    top: 20px;
-    overflow: hidden;
-    visibility: hidden;
-    background: #fff;
-    z-index: 1000; }
-    .details_content_center .details_mid #bpic .bigpic {
-      display: block;
-      width: 800px;
-      height: 800px;
-      border: 0;
-      z-index: 1001;
-      position: absolute;
-      left: 0;
-      top: 0; }
-  .details_content_center .details_mid .title_1 {
-    width: 100%;
-    position: relative;
-    padding-left: 60px;
-    font-size: 16px;
-    color: #333; }
-  .details_content_center .details_mid .title_2 {
-    width: 100%;
-    margin: 10px 0;
-    font-size: 14px;
-    color: #999; }
-  .details_content_center .details_mid .jsd {
-    background: url(../img/icon_jsd.png);
-    width: 56px;
-    height: 22px;
-    display: block;
-    position: absolute;
-    left: 0; }
-  .details_content_center .details_mid .datails_right {
-    width: 882px;
-    float: left; }
-  .details_content_center .details_mid .price_weight {
-    margin: 20px 0;
-    width: 100%;
-    position: relative;
-    padding-bottom: 20px;
-    border-bottom: 1px solid #ccc; }
-    .details_content_center .details_mid .price_weight .price {
-      float: left; }
-      .details_content_center .details_mid .price_weight .price strong {
-        font-size: 25px;
-        color: #0E4BBF; }
-      .details_content_center .details_mid .price_weight .price em {
-        font-size: 18px;
-        color: #0E4BBF; }
-      .details_content_center .details_mid .price_weight .price span {
-        font-size: 14px;
-        color: #999; }
-    .details_content_center .details_mid .price_weight .weight {
-      float: left; }
-      .details_content_center .details_mid .price_weight .weight span {
-        font-size: 14px;
-        color: #999;
-        margin-left: 60px;
-        display: inline-block;
-        position: absolute;
-        bottom: 21px;
-        left: 300px; }
-  .details_content_center .details_mid .haoping {
-    width: 100%; }
-    .details_content_center .details_mid .haoping img {
-      border: 0; }
-  .details_content_center .details_mid .addshopping {
-    padding: 10px 0; }
-  .details_content_center .details_mid .jiajian {
-    margin-right: 10px;
-    width: 160px;
-    float: left;
-    position: relative;
-    height: 50px; }
-    .details_content_center .details_mid .jiajian a {
-      width: 100%;
+      font-size: 35px;
+      margin-top: 40px; }
+  .empty_box .go_shopping {
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    border: 1px solid #0069aa;
+    background-color: #0069aa;
+    margin-left: 510px; }
+    .empty_box .go_shopping a {
+      font-size: 25px;
+      color: #fff;
+      margin-top: 10px;
       display: block; }
-  .details_content_center .details_mid .gouwuche {
-    float: left; }
 
-#num_jian {
-  position: absolute;
-  height: 50px;
-  line-height: 50px;
-  width: 60px;
-  top: 5px;
-  left: 0px;
-  text-align: center;
-  color: #5959C6;
-  font-size: 60px;
-  border: 1px solid #ccc;
-  cursor: pointer; }
-
-#numm {
-  display: inline-block;
-  width: 51px;
-  height: 48px;
-  position: absolute;
-  left: 61px;
-  top: 5px;
-  outline: 0;
-  font-size: 18px;
-  border: 0;
-  border: 1px solid #ccc;
+table tr td {
   text-align: center; }
 
-#num_jia {
-  position: absolute;
-  width: 60px;
+#checkall {
+  width: 50px; }
+
+#info {
+  width: 300px; }
+
+#singleprice {
+  width: 150px; }
+
+#num {
+  width: 250px; }
+
+#subtotal {
+  width: 200px; }
+
+#operation {
+  width: 200px; }
+
+#alldelet {
+  display: inline-block;
+  width: 800px;
+  margin-top: 20px;
+  margin-left: 10px; }
+
+#amount {
+  display: inline-block;
+  width: 50px; }
+
+#price {
+  display: inline-block;
+  width: 50px;
+  font-size: 20px;
+  color: #0069aa;
+  margin-top: 5px; }
+
+#number {
+  display: inline-block;
+  width: 50px;
+  margin-left: 10px; }
+
+#go_money {
+  display: inline-block;
+  width: 150px;
+  margin-left: 60px;
+  font-size: 25px;
+  background: green;
   height: 50px;
-  left: 113px;
-  top: 5px;
-  text-align: center;
-  line-height: 50px;
-  font-size: 33px;
-  color: #5959C6;
-  border: 1px solid #ccc;
-  cursor: pointer; }
+  line-height: 50px; }
+  #go_money a {
+    color: #fff;
+    text-align: center;
+    display: block; }
+
+.warelist {
+  width: 100%;
+  position: relative;
+  margin: 5px 5px;
+  height: 100px; }
+  .warelist .checkbox {
+    position: absolute;
+    left: 10px; }
+  .warelist .warepic {
+    position: absolute;
+    left: 40px;
+    width: 90px;
+    height: 90px; }
+  .warelist .info {
+    position: absolute;
+    left: 145px; }
+  .warelist .singleprice {
+    position: absolute;
+    left: 400px; }
+  .warelist .num_jian {
+    text-align: center;
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    position: absolute;
+    left: 575px;
+    border: 1px solid #ccc; }
+  .warelist .numm {
+    text-align: center;
+    height: 20px;
+    width: 30px;
+    position: absolute;
+    outline: 0;
+    border: 1px solid #ccc;
+    left: 600px;
+    top: -1px; }
+  .warelist .num_jia {
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    position: absolute;
+    left: 635px;
+    border: 1px solid #ccc;
+    cursor: pointer; }
+  .warelist .subtotal {
+    position: absolute;
+    left: 820px; }
+  .warelist .del {
+    display: inline-block;
+    position: absolute;
+    left: 1030px; }
+
+.footer {
+  background: #ebebeb; }
+  .footer .footer_center {
+    width: 1500px;
+    height: 300px;
+    margin: 0 auto; }
+
+body {
+  background: #f8f8f8; }

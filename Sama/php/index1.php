@@ -47,6 +47,13 @@
 	}
 
 
+	$glass=mysql_query("select * from glass");
+	$glass_arr=array();
+	for($i=0;$i<mysql_num_rows($glass);$i++){
+		$glass_arr[$i]=mysql_fetch_array($glass,MYSQLI_ASSOC);
+	}
+
+
 	//4首页数据接口
 	class indexdata{
 
@@ -58,6 +65,8 @@
 	$index->main_2_data=$main_2_arr;
 	$index->main_3_data=$main_3_arr;
 	$index->main_4_data=$main_4_arr;
+	$index->glass=$glass_arr;
+
 
 
 

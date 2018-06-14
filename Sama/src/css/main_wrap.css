@@ -109,13 +109,6 @@
     position: relative;
     width: 100%;
     padding-top: 100%; }
-    .my_shopping_list .prod_box .item .i_size_box .jsd_tag {
-      position: absolute;
-      left: 0px;
-      top: 12px;
-      width: 56px;
-      height: 22px;
-      background: url(../img/icon_jsd.png); }
   .my_shopping_list .prod_box .item img {
     position: absolute;
     left: 0px;

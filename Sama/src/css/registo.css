@@ -155,7 +155,8 @@ a {
     height: 24px;
     background: #fff;
     border-radius: 50%;
-    border: 2px solid #0799c9; }
+    border: 2px solid #0799c9;
+    border: 2px solid #ccc; }
 
 .from_box {
   width: 442px;
@@ -184,20 +185,23 @@ a {
       display: none; }
 
 .from_box .btn_box {
-  margin: 24px 15px 30px; }
+  margin: 24px 15px 30px;
+  position: relative; }
 
-.from_box .blue_link {
+#submit {
   display: block;
+  background-color: #006aaf;
   width: 220px;
-  margin: 0 auto;
-  background: #006aaf;
-  text-align: center;
-  color: #fff;
-  line-height: 50px;
-  font-size: 18px;
+  height: 50px;
   font-family: "Microsoft YaHei";
+  font-size: 20px;
+  outline: 0;
+  position: absolute;
+  left: 70px;
   font-weight: bold;
-  border-radius: 3px;
-  height: 50px; }
-  .from_box .blue_link:hover {
+  border-radius: 5px;
+  line-height: 50px;
+  text-align: center;
+  color: #fff; }
+  #submit:hover {
     background: #005b96; }

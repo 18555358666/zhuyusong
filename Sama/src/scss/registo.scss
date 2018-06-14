@@ -69,6 +69,7 @@ $bg_color:#f8f8f8;
 	}
 	span{
 		@include ospan;
+		border:2px solid #ccc;
 	}
 }
 
@@ -91,21 +92,25 @@ $bg_color:#f8f8f8;
 
 .from_box .btn_box{
 	margin: 24px 15px 30px;
+	position:relative;
 }
-.from_box .blue_link{
-	display:block;
-	width: 220px;
-    @include auto_center;
-    background: #006aaf;
-    text-align:center;
-    color: #fff;
-    line-height: 50px;
-    font-size: 18px;
-    font-family: "Microsoft YaHei";
-    font-weight: bold;
-    border-radius: 3px;
-    height: 50px;
-    &:hover{
+
+#submit{
+	 display:block;
+	 background-color:#006aaf;
+	width:220px;
+	height:50px;
+	font-family: "Microsoft YaHei";
+	font-size:20px;
+	outline:0;
+	position:absolute;
+	left:70px;
+	font-weight: bold;
+	border-radius: 5px;
+	line-height: 50px;
+	text-align:center;
+	color: #fff;
+	&:hover{
     	background: darken(#006aaf,5%)
     }
 }

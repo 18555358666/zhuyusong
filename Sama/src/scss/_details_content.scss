@@ -20,23 +20,191 @@
 
 .details_content_center .details_mid{
 	padding-top:20px;
+	position:relative;
 	.datails_left{
 		float:left;
 	}
 	.left_pic{
+			
 			border:1px solid #ccc;
 			width:65px;
 			height:65px;
 			margin-bottom:5px;
-			&:hover{
-				border:1px solid #2b68a5;
+			width:65px;
+			height:65px;
+			img{
+				display:block;
+				width:65px;
+				height:65px;
+				border:0;
 			}
 		}
 	.datails_spic{
 		width:500px;
 		height:500px;
 		float:left;
-		background:yellow;
-		margin-left:15px;
+		position:relative;
+		.small_glass{
+			background:orange;
+			opacity:0.5;
+			position:absolute;
+			top:0;
+			left:0;
+			visibility:hidden;
+		}	
+		.midpic{
+		display:block;
+		border:0;
+		width:500px;
+		height:500px;						
+		}
 	}
+	#bpic{
+		width:500px;
+		height:500px;
+		position:absolute;
+		left:567px;
+		top:20px;
+		overflow:hidden;
+		visibility:hidden;
+		background:#fff;
+		z-index:1000;
+		.bigpic{
+			display:block;
+			width:800px;
+			height:800px;
+			border:0;
+			z-index:1001;
+			position:absolute;
+			left:0;
+			top:0;
+		}
+	}
+
+	.title_1{
+		width:100%;
+		position:relative;
+		padding-left:60px;
+		font-size:16px;
+		color:#333;
+	}
+	.title_2{
+		width:100%;
+		margin:10px 0;
+		font-size:14px;
+		color:#999;
+	}
+	.jsd{
+			background:url(../img/icon_jsd.png);
+			width:56px;
+			height:22px;
+			display:block;
+			position:absolute;
+			left:0;
+		}
+	.datails_right{
+		width:882px;
+		float:left;
+	}
+	.price_weight{
+		margin:20px 0;
+		width:100%;
+		position:relative;
+		padding-bottom:20px;
+		border-bottom:1px solid #ccc;
+		.price{
+			float:left;
+			strong{
+				font-size:25px;
+				color:#0E4BBF;
+			}
+			em{
+				font-size:18px;
+				color:#0E4BBF;
+			}
+			span{
+				font-size:14px;
+				color:#999;
+			}
+
+
+		}
+		.weight{
+			float:left;
+			span{
+				font-size:14px;
+				color:#999;
+				margin-left:60px;
+				display:inline-block;
+				position:absolute;
+				bottom:21px;
+				left:300px;
+			}
+		}
+	}
+	.haoping{
+		width:100%;
+		img{
+			border:0;
+		}
+	}
+	.addshopping{
+		padding:10px 0;
+	}
+	.jiajian{
+		margin-right:10px;
+			width:160px;
+			float:left;
+			position:relative;
+			height:50px;
+			a{
+				width:100%;
+				display:block;
+			}
+		}
+		.gouwuche{
+			
+			
+			float:left;
+		}
+}
+#num_jian{
+	position:absolute;
+	height:50px;
+	line-height:50px;
+	width:60px;
+	top:5px;
+	left:0px;
+	text-align:center;
+	color:#5959C6;
+	font-size:60px;
+	border:1px solid #ccc;
+	cursor:pointer;
+
+}
+#numm{
+	display:inline-block;
+	width:51px;
+	height:48px;
+	position:absolute;
+	left:61px;
+	top:5px;
+	outline:0;
+	font-size:18px;
+	border:0;
+	border:1px solid #ccc;
+	text-align:center;
+}
+#num_jia{
+	position:absolute;
+	width:60px;
+	height:50px;
+	left:113px;
+	top:5px;
+	text-align:center;
+	line-height:50px;
+	font-size:33px;
+	color:#5959C6;
+	border:1px solid #ccc;
+	cursor:pointer;
 }
